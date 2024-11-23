@@ -13,6 +13,11 @@ public class Task11 {
         vector.add(4);
         vector.add(7);
         vector.add(8);
+        System.out.println("Vector tutumu: " + vector.capacity());
+        System.out.println("Vector ölçüsü: " + vector.size());
+         vector.trimToSize();
+         System.out.println("Vector trimToSize() metodundan sonra tutumu: " + vector.capacity());
+         System.out.println("Vector trimToSize() metodundan sonra ölçüsü: " + vector.size());
 
 
     }
